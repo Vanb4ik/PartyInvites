@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f18013ff-1411-4389-a10a-d52508428390" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.PartyInvites/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Models/GuestResponse.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/PartyInvites.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Repository/Repository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Startup.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Home/ListResponses.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Home/RsvpForm.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Home/Thanks.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Shared/_CookieConsentPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/app.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.dll.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/bin/Debug/netcoreapp2.2/PartyInvites.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.RazorCoreGenerate.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.RazorTargetAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.RazorTargetAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.TagHelpers.input.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.TagHelpers.output.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.Views.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.Views.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/PartyInvites.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Home/ListResponses.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Home/RsvpForm.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Home/Thanks.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/PartyInvites.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/PartyInvites.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/PartyInvites.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PartyInvites/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PartyInvites/Models/GuestResponse.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <marker date="1559544696300" expanded="true" signature="75:586" ph="{...}" />
+                <marker date="1559544696300" expanded="true" signature="108:584" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PartyInvites/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+              <folding>
+                <marker date="1566567192301" expanded="true" signature="6:363" ph="..." />
+                <marker date="1566567192301" expanded="true" signature="387:2167" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="414:2165" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="473:536" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="759:1212" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="845:1109" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="1400:2159" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="1447:1524" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="1541:1800" ph="{...}" />
+                <marker date="1566567192301" expanded="true" signature="1989:2147" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Models/GuestResponse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Shared/_CookieConsentPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Home/RsvpForm.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Home/Thanks.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DBC57F52-BDD4-45DA-8B29-C21452AD12F4/c7/a6c243d2/RazorPage.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/Home/ListResponses.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F352E566-ABF6-421E-87EA-FBCF57A0B237/c0/1bc70c80/DirectoryBrowserExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PartyInvites/Repository/Repository.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PartyInvites/Views/_ViewImports.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/Repository/Repository.cs" />
+        <option value="$PROJECT_DIR$/PartyInvites/Views/Home/Thanks.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/PartyInvites/Models/GuestResponse.cs" />
+        <option value="$PROJECT_DIR$/PartyInvites/Views/Shared/_CookieConsentPartial.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/wwwroot/css/site.css" />
+        <option value="$PROJECT_DIR$/PartyInvites/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/Views/Home/RsvpForm.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/Views/Home/ListResponses.cshtml" />
+        <option value="$PROJECT_DIR$/PartyInvites/Startup.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.PartyInvites/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Dependencies" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Home" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="PartyInvites" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="wwwroot" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.PartyInvites">
+    <configuration name="PartyInvites JavaScript" type="JavascriptDebugType" uri="https://localhost:5001" useFirstLineBreakpoints="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="PartyInvites" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PartyInvites/PartyInvites.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="PartyInvites" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <browser with-js-debugger="true" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PartyInvites: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/PartyInvites/PartyInvites.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue=".NET Launch Settings Profile.PartyInvites" />
+      <item itemvalue=".NET Launch Settings Profile.PartyInvites: IIS Express" />
+      <item itemvalue="JavaScript Debug.PartyInvites JavaScript" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f18013ff-1411-4389-a10a-d52508428390" name="Default Changelist" comment="" />
+      <created>1558947104597</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1558947104597</updated>
+      <workItem from="1558947105801" duration="145000" />
+      <workItem from="1559286606147" duration="6143000" />
+      <workItem from="1559493415903" duration="723000" />
+      <workItem from="1559544553563" duration="1171000" />
+      <workItem from="1559719474656" duration="3605000" />
+      <workItem from="1562917626813" duration="453000" />
+      <workItem from="1563205591248" duration="219000" />
+      <workItem from="1566566756277" duration="1791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="14250000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="821" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22237961" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4348442" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.42634562" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.20963173" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Errors In Solution" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="3" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="4" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Project" order="7" visible="true" weight="0.15879828" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/PartyInvites/Views/Home/Index.cshtml</url>
+          <line>7</line>
+          <properties documentPath="$PROJECT_DIR$/PartyInvites/Views/Home/Index.cshtml" initialLine="7" isMultiMethodBreakpoint="true">
+            <option name="multiMethodBreakpoint" value="true" />
+            <startOffsets>
+              <option value="-1" />
+            </startOffsets>
+            <endOffsets>
+              <option value="-1" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/DBC57F52-BDD4-45DA-8B29-C21452AD12F4/c7/a6c243d2/RazorPage.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="42" column="35" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/_ViewImports.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <marker date="1559288292100" expanded="true" signature="7:46" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Repository/Repository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <marker date="1559293384481" expanded="true" signature="6:60" ph="..." />
+            <marker date="1559293384481" expanded="true" signature="135:431" ph="{...}" />
+            <marker date="1559293384481" expanded="true" signature="172:243" ph="{...}" />
+            <marker date="1559293384481" expanded="true" signature="368:425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Controllers/HomeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+          <folding>
+            <marker date="1559494054684" expanded="false" signature="6:212" ph="..." />
+            <marker date="1559494054684" expanded="true" signature="248:1198" ph="{...}" />
+            <marker date="1559494054684" expanded="true" signature="295:1196" ph="{...}" />
+            <marker date="1559494054684" expanded="true" signature="338:548" ph="{...}" />
+            <marker date="1559494054684" expanded="true" signature="607:654" ph="{...}" />
+            <marker date="1559494054684" expanded="true" signature="744:959" ph="{...}" />
+            <marker date="1559494054684" expanded="true" signature="790:921" ph="{...}" />
+            <marker date="1559494054684" expanded="true" signature="1023:1181" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Home/Thanks.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+          <folding>
+            <marker date="1559294736609" expanded="true" signature="22:62" ph="@..." />
+            <marker date="1559294736609" expanded="true" signature="150:392" ph="@..." />
+            <marker date="1559294736609" expanded="true" signature="172:275" ph="{...}" />
+            <marker date="1559294736609" expanded="true" signature="288:392" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Home/Privacy.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1558947099370" expanded="true" signature="0:46" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/wwwroot/lib/bootstrap/LICENSE">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/wwwroot/css/site.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Models/GuestResponse.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <marker date="1559544696300" expanded="true" signature="75:586" ph="{...}" />
+            <marker date="1559544696300" expanded="true" signature="108:584" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Shared/_CookieConsentPartial.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+          <folding>
+            <marker date="1559722493099" expanded="true" signature="43:240" ph="@..." />
+            <marker date="1559722493099" expanded="true" signature="242:1029" ph="@..." />
+            <marker date="1559722493099" expanded="true" signature="258:1029" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Home/ListResponses.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding>
+            <marker date="1559724002120" expanded="true" signature="56:117" ph="@..." />
+            <marker date="1559724002120" expanded="true" signature="431:764" ph="@..." />
+            <marker date="1559724002120" expanded="true" signature="473:764" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Shared/_Layout.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="51" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
+          <folding>
+            <marker date="1559723449506" expanded="true" signature="530:1600" ph="@*...*@" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Home/RsvpForm.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="53" selection-start-line="6" selection-start-column="53" selection-end-line="6" selection-end-column="53" />
+          <folding>
+            <marker date="1559723818211" expanded="true" signature="21:62" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/appsettings.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/F352E566-ABF6-421E-87EA-FBCF57A0B237/c0/1bc70c80/DirectoryBrowserExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="18" column="38" selection-start-line="18" selection-start-column="38" selection-end-line="18" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Views/Home/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <marker date="1559288598957" expanded="true" signature="0:46" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PartyInvites/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+          <folding>
+            <marker date="1566567192301" expanded="true" signature="6:363" ph="..." />
+            <marker date="1566567192301" expanded="true" signature="387:2167" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="414:2165" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="473:536" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="759:1212" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="845:1109" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="1400:2159" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="1447:1524" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="1541:1800" ph="{...}" />
+            <marker date="1566567192301" expanded="true" signature="1989:2147" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

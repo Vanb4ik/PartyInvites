@@ -1,0 +1,38 @@
+@model GuestResponse
+@{
+
+    ViewData["Title"] = "Response";
+}
+<div class="card ">
+    <div class="card-header text-center alert-success">
+        Panel head
+    </div>
+    <div class="card-body">
+        <form class="p-a-1" asp-action="RsvpForm" method="post">
+            <div asp-validation-summary="All"> </div>
+            <div class="form-group">
+                <label asp-for="Name">Your name:</label>
+                <input class="form-control" asp-for="Name"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Email">Your email:</label>
+                <input class="form-control" type="text" asp-for="Email"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone">Your phone:</label>
+                <input class="form-control" type="text" asp-for="Phone"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="WillAttend">Will you attend party?</label>
+                <select class="form-control" asp-for="WillAttend">
+                    <option value="true">Ok, I come</option>
+                    <option value="true">No, I can't come</option>
+                </select>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-primary" type="submit">Send</button>
+            </div>
+
+        </form>
+    </div>
+</div>

@@ -1,0 +1,36 @@
+@model System.Collections.Generic.IList<GuestResponse>
+
+@{
+    ViewBag.Title = "Responses";
+    Layout = "_Layout";
+}
+
+<div class="card-body">
+    <h2>Hear is the list of peple attending the party</h2>
+
+    <table class="table table-sm table-striped table-bordered">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+        </tr>
+        </thead>
+        <tbody>
+        @foreach (GuestResponse response in Model)
+        {
+            <tr>
+                <td>
+                    @response.Name
+                </td>
+                <td>
+                    @response.Email
+                </td>
+                <td>
+                    @response.Phone
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+</div>
